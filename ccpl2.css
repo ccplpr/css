@@ -7735,3 +7735,64 @@ label[for='nav-trigger']{
    width:1.875rem;
 }
 
+.content-header__image [role='presentation']{background-repeat:no-repeat;background-size:contain;position:absolute;}
+.content-header__image [role='presentation']:nth-of-type(1){
+   background-image:url("/themes/custom/richland/images/triangles/triangle--blog1.svg");
+   bottom:0;
+   left:-280px;
+   height:100%;
+   width:560px;
+   background-position:center;
+}
+.content-header__image [role='presentation']:nth-of-type(2){
+   background-image:url("/themes/custom/richland/images/triangles/triangle--blog2.svg");
+   height:50%;
+   left:-260px;
+   width:520px;
+   background-position:center;
+}
+.content-header__image [role='presentation']:nth-of-type(3){
+   background-image:url("/themes/custom/richland/images/triangles/triangle--blog3.svg");
+   bottom:0;
+   height:60%;
+   right:0;
+   width:520px;
+   background-position:right;
+}
+.content-header--inset .content-header__image{background-size:50%;}
+@media (min-width:75em){
+   .content-header--inset .content-header__image{
+      background-size:-webkit-calc(50% - 80px);background-size:calc(50% - 80px);
+   }
+}
+.content-header--no-image .content-header__image{background-color:#C91B76;background-image:none !important;}
+.content-header--override .content-header__image [role='presentation']:nth-of-type(1){
+   background-image:url("/themes/custom/richland/images/triangles/triangle--blog1.svg");
+}
+.content-header--override .content-header__image [role='presentation']:nth-of-type(2){
+   background-image:url("/themes/custom/richland/images/triangles/triangle--blog2--blue.svg");
+}
+.content-header--override .content-header__image [role='presentation']:nth-of-type(3){
+   background-image:url("/themes/custom/richland/images/triangles/triangle--blog3--blue.svg");
+}
+.content-header--location .content-header__image [role='presentation']:nth-of-type(1){
+   background-image:url("/themes/custom/richland/images/triangles/triangle--blog6.svg");
+}
+.content-header--location .content-header__image [role='presentation']:nth-of-type(2){
+   background-image:url("/themes/custom/richland/images/triangles/triangles--location.svg");
+}
+.content-header--location .content-header__image [role='presentation']:nth-of-type(3){
+   background-image:url("/themes/custom/richland/images/triangles/triangle--blog3--blue.svg");
+}
+
+.page-title{font-size:1.875rem;line-height:1.2;padding-bottom:0;margin-bottom:0;}
+@media (min-width:48em){.page-title{font-size:2.5rem;}}
+@media (min-width:62em){.page-title{font-size:3rem;}}
+.page-title:not(:last-child){margin-bottom:3.125rem;}
+.page-title--small{font-size:1.41667rem;margin-bottom:0;padding-bottom:0;}
+@media (min-width:48em){.page-title--small{font-size:1.875rem;}}
+@media (min-width:62em){.page-title--small{font-size:2.25rem;}}
+
+
+
+
